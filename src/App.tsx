@@ -12,7 +12,7 @@ const App: React.FC = () => (
       <nav>
         <ul>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="/profile">Profile</Link>
@@ -23,7 +23,7 @@ const App: React.FC = () => (
         </ul>
       </nav>
       <Switch>
-      <Route path="/home">
+      <Route path="/">
           <Home />
         </Route>
         <Route path="/profile">
