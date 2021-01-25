@@ -20,7 +20,7 @@ const Home: React.FC = () => {
 return (
     <>
     <h1>Welcome</h1>
-    <img src={url} alt="Image" />
+    <img src={url} />
     </>
 )}
 
